@@ -4,6 +4,11 @@
 
 @custom-variant dark (&:is(.dark *));
 
+@utility scrollbar-thin {
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
+}
+
 @theme inline {
     --font-heading: var(--font-mono);
     --font-mono: var(--font-mono);
